@@ -1,0 +1,27 @@
+/******************************
+File: README.txt
+Author: Pranav Prabhu
+Date: 03/13/2021
+*******************************/
+
+DESCRIPTION:
+Connect Four (also known as Four Up, Plot Four, Find Four, Captain's Mistress, Four in a Row, Drop Four, and Gravitrips in the Soviet Union)
+is a two-player connection board game, in which the players choose a color and then take turns dropping colored discs into a seven-column, six-row
+vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the
+first to form a horizontal, vertical, or diagonal line of four of one's own discs. Connect Four is a solved game. The first player can always win by playing the
+right moves. The game was first sold under the Connect Four trademark by Milton Bradley in February 1974.
+
+INCLUDED FILES: connect_four_game.cpp
+
+COMPILING AND RUNNING:
+g++ -o connect_four connect_four_game.cpp
+(or)
+g++ connect_four_game.cpp -o assignment4
+
+NOTE: This program uses many built-in functions such as atoi(). Compile this code in C++11:
+g++ -c -Wall -std=c++11 -o assignment4 connect_four_game.cpp
+
+Call the executable file with 3 arguments:
+./assignment4 7 6
+
+NOTE: ./assignment4 is the executable file, 7 is the number of rows, and 6 is the number of columns
